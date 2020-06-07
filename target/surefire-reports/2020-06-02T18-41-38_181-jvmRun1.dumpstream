@@ -1,0 +1,175 @@
+# Created on 2020-06-02T18:42:04.290
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2020-06-02T18:42:17.624
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.624
+Unexpected IOException with stream:   @tag3 @All
+
+
+# Created on 2020-06-02T18:42:17.624
+Unexpected IOException with stream:   Scenario Outline: Fund Tranfer Between Primary Account to Savings Account with a invalid amount # feature/TransferBetweenAccounts_Vimal.feature:45
+
+
+# Created on 2020-06-02T18:42:17.639
+Unexpected IOException with stream:     Given User enters the credentials and login to the application"8"_Vimal                       # TransferBetweenAccounts_Vimal.user_enters_the_credentials_and_login_to_the_application__Vimal(String)
+
+
+# Created on 2020-06-02T18:42:17.639
+Unexpected IOException with stream:     When Navigate to transfer between own accounts page_Vimal                                     # TransferBetweenAccounts_Vimal.navigate_to_transfer_between_own_accounts_page_Vimal()
+
+
+# Created on 2020-06-02T18:42:17.639
+Unexpected IOException with stream:     And User selects Primary to Savings transfer and enters a invalid amount_Vimal                # TransferBetweenAccounts_Vimal.user_selects_Primary_to_Savings_transfer_and_enters_a_invalid_amount_Vimal()
+
+
+# Created on 2020-06-02T18:42:17.639
+Unexpected IOException with stream:     Then Fund Transfer is should be rejected_Vimal                                                # TransferBetweenAccounts_Vimal.fund_Transfer_is_should_be_rejected_Vimal()
+
+
+# Created on 2020-06-02T18:42:17.639
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//h2[contains(text(),'Primary Balance:')]
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'MAVBCP75', ip: '192.168.43.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+      Driver info: driver.version: RemoteWebDriver
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at com.stepdefination.TransferBetweenAccounts_Vimal.fund_Transfer_is_should_be_rejected_Vimal(TransferBetweenAccounts_Vimal.java:126)
+      	at ?.Then Fund Transfer is should be rejected_Vimal(feature/TransferBetweenAccounts_Vimal.feature:41)
+
+
+
+# Created on 2020-06-02T18:42:17.657
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.657
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created on 2020-06-02T18:42:17.665
+Unexpected IOException with stream: feature/TransferBetweenAccounts_Vimal.feature:45 
+
+# Created on 2020-06-02T18:42:17.665
+Unexpected IOException with stream: # Scenario Outline: Fund Tranfer Between Primary Account to Savings Account with a invalid amount
+
+
+# Created on 2020-06-02T18:42:17.667
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.667
+Unexpected IOException with stream: 1
+
+# Created on 2020-06-02T18:42:17.667
+Unexpected IOException with stream:  Scenarios (
+
+# Created on 2020-06-02T18:42:17.667
+Unexpected IOException with stream: 1 failed
+
+# Created on 2020-06-02T18:42:17.667
+Unexpected IOException with stream: )
+
+
+# Created on 2020-06-02T18:42:17.675
+Unexpected IOException with stream: 6
+
+# Created on 2020-06-02T18:42:17.677
+Unexpected IOException with stream:  Steps (
+
+# Created on 2020-06-02T18:42:17.677
+Unexpected IOException with stream: 1 failed
+
+# Created on 2020-06-02T18:42:17.677
+Unexpected IOException with stream: , 
+
+# Created on 2020-06-02T18:42:17.677
+Unexpected IOException with stream: 5 passed
+
+# Created on 2020-06-02T18:42:17.677
+Unexpected IOException with stream: )
+
+
+# Created on 2020-06-02T18:42:17.685
+Unexpected IOException with stream: 0m
+
+# Created on 2020-06-02T18:42:17.687
+Unexpected IOException with stream: 36.291s
+
+
+# Created on 2020-06-02T18:42:17.687
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.707
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//h2[contains(text(),'Primary Balance:')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAVBCP75', ip: '192.168.43.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+
+# Created on 2020-06-02T18:42:17.707
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.707
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+
+# Created on 2020-06-02T18:42:17.707
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.707
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created on 2020-06-02T18:42:17.717
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.717
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created on 2020-06-02T18:42:17.717
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.717
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created on 2020-06-02T18:42:17.717
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.725
+Unexpected IOException with stream: 	at com.stepdefination.TransferBetweenAccounts_Vimal.fund_Transfer_is_should_be_rejected_Vimal(TransferBetweenAccounts_Vimal.java:126)
+
+# Created on 2020-06-02T18:42:17.725
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.727
+Unexpected IOException with stream: 	at ?.Then Fund Transfer is should be rejected_Vimal(feature/TransferBetweenAccounts_Vimal.feature:41)
+
+# Created on 2020-06-02T18:42:17.727
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.727
+Unexpected IOException with stream: 
+
+
+# Created on 2020-06-02T18:42:17.949
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.runner.Runner,null,null,null
+
+
